@@ -8,7 +8,7 @@ header {
 	margin: 50px auto;
 }
 h1, h2, h3 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 h1 {
 	color: #fff;
@@ -49,7 +49,7 @@ footer {
 .navlinks {
 	color: #fff;
 	font-size: 30px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 .worklinks {
 	color: #b3005b;
