@@ -1,0 +1,62 @@
+body {
+	background-color: #aaaaaa;
+	color:#b3005b;
+	text-align: center;
+	font-family: tahoma, sans-serif;
+}
+header {
+	margin: 50px auto;
+}
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	color: #fff;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 30px;
+}
+img {
+	margin: auto;
+}
+p, li {
+	font-size: 20px;
+	font-family: serif;
+	font-style: italic;
+}
+h2 {
+	font-size: 60px;
+	color: #fff;
+	text-transform: uppercase;
+}
+ul {
+      list-style-type: none;
+      font-size: 20px;
+}
+a{
+	text-decoration: none;
+	text-transform: lowercase;
+	margin: 16px;
+}
+footer {
+	text-align: left;
+	font-size: 20px
+}
+.navlinks {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.worklinks {
+	color: #b3005b;
+	font-size: 16px;
+}
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	font-family: serif;
+}
