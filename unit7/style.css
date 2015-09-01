@@ -1,43 +1,34 @@
 
-* {
-	box-sizing: border-box;
-}
-
 body {
+	width: 100%;
 	color:#000;
 	font-family: tahoma, arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 }
-header {
-	width: 100%;
-}
-
 
 h1 {
 	font-family: Times, serif;
 	font-style: italic;
 	font-size: 1.3em;
 	color: #000;
-	border: 1px black solid;
-	width: 25%;
+	/*border: 1px black solid;*/
 	display: inline;
-	/*margin: 0 .75em 0 0;*/
-	padding: 10%;
+	margin: 0 .75em 0 0;
+	padding: .5em;
 }
-
-/*nav {
-	border: 1px black solid;
+nav {
+	/*border: 1px black solid;*/
 	text-transform: uppercase;
+	display: inline;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 1.25em;
 	font-weight: 500;
 	float: right;
-	padding: 1em;
-	width: 35%;
-	/*margin: 1.5em 3% 0;
-/*	word-spacing: 1.25em;
-}*/
+	padding: 1em 2em 1em;
+	margin: 0;
+	word-spacing: 1.25em;
+}
 
 a {
 	text-decoration: none;
@@ -77,11 +68,13 @@ footer {
 	padding: 1.75em;
 	height: 50%;
 }
+#white {
+	color: #fff;
+}
 
-
-/*#slogan {*/
-	/*border: 1px black solid;
-}*/
+#slogan {
+	border: 1px black solid;
+}
 .circle {
 	/*text-transform: uppercase;*/
 	/*border: 1px black solid;*/ 
@@ -133,10 +126,9 @@ footer {
 }
 .wrapper {
 	width: 90%;
-	margin: 2.5em auto;
-	/*margin: 1.25em auto;*/
-	/*padding: 10em;*/
-	border: 1px black solid;
+	margin: 1.25em 2em;
+	padding: 2.5em;
+	/*border: 1px black solid;*/
 }
 .mainwrapper {
 	background-image: url("images/fashionapp.jpg");
@@ -184,28 +176,15 @@ footer {
 	margin: 2.2em 0 0;
 	height: 510px;
 }
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
 
 #logo {
 	color: #000;
 	font-family:'PT Sans Narrow', sans-serif;
 	font-weight: 700;
 	font-size: 3.5em;
-	border: 1px black solid;
-	display: inline;
-	/*padding: .5em;*/
-	width: 12%;
-	/*margin: 1em 0 1em 3%;*/
-}
-#white {
-	color: #fff;
+	/*border: 1px black solid;*/
+	/*padding: .5em 0em .5em 1em;*/
+	margin: 1em 0 1em 1em;
 }
 #contacts {
 	font-family: 'Noto Sans', sans-serif;
@@ -226,22 +205,31 @@ footer {
 #black {
 	color: #000;
 }
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
 
-@media only screen  and (max-width: 1342px) {
-
-/*	.center, .right, .mapcenter {
+@media only screen  and (max-width: 768px) {
+	.center, .right, .mapcenter {
 		float: none;
 		width: auto;
 	}
 	body {
 		font-size: 14px;
-	}*/
-	/*nav a {
+	}
+	nav {
+		float: none;
+	}
+	nav a {
 		display: block;
 		text-align: center;
-	}*/
-		/*margin: 1em auto;
-	/*	padding: .5em;
+		/*margin: 1em auto;*/
+		padding: .5em;
 	}
 	h2, h3 {
 		text-align: center;
@@ -250,10 +238,10 @@ footer {
 	img {
 		width: 320px;
 	}
-}*/
+}
 
-/*@media only screen and (max-width: 480px) {*/
-	/*body {
+@media only screen and (max-width: 480px) {
+	body {
 		font-size: 13px;
 	}
 	h1, nav {
@@ -268,7 +256,7 @@ footer {
 		width: 230px;
 	}
 
-}*/
+}
 @media only screen and (max-width: 320px) {
 	/*body {
 		font-size: 13px;
